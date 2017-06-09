@@ -1,7 +1,7 @@
 "use strict";
 
 const express = require('express');
-const allowCORS = require('config/cors');
+const allowCORS = require('./config/cors');
 
 let app = express();
 let server = require('http').createServer(app);
