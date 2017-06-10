@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "8b319a934c740f3e1121"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "789ac3ce04b84dfea30c"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -4223,6 +4223,8 @@ var Render = function () {
 			textSize(64);
 			fill('white');
 			// tODO; UPDATE PLAYER COUNTER TO ENEMY COUNTRE
+			window.playerScore = this.player.counter;
+
 			text(this.player.counter, t2x + 75, t2y + 75);
 		}
 	}, {

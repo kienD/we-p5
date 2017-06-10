@@ -114,6 +114,8 @@ export default class Render {
 		textSize(64);
 		fill('white');
 		// tODO; UPDATE PLAYER COUNTER TO ENEMY COUNTRE
+		window.playerScore = this.player.counter;
+
 		text(this.player.counter, t2x + 75, t2y + 75);
 
 	}
